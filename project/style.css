@@ -1,0 +1,454 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Montserrat:ital,wght@0,100;1,100;1,200&family=Raleway:ital,wght@1,200&family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Forum&family=Julius+Sans+One&family=Montserrat:ital,wght@0,100;1,100;1,200&family=Raleway:ital,wght@1,200&family=Sedgwick+Ave+Display&family=Shippori+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Forum&family=Julius+Sans+One&family=Montserrat:ital,wght@0,100;1,100;1,200&family=Raleway:ital,wght@1,200&family=Sedgwick+Ave+Display&family=Shippori+Mincho&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.slide {
+    width: 100%;
+    height: 650px;
+}
+ header {
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    background-color: rgb(254, 252, 252, .90);
+    box-shadow: 0 0px 5px 0 #e5e4e2;
+}
+
+.nav{
+    grid-column: 3;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-right: 10px;
+}
+
+.nav li {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    padding-right: 25px;
+}
+   
+
+.nav li a {
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.nav li a:hover {
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 0.5rem;
+    color: white;
+    background-color:#197AE5;
+    transition: 1s;
+    
+}
+.home {
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 0.5rem;
+    color: white;
+    background-color:#197AE5
+}
+
+
+.TUN-on {
+    text-decoration: none;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-left: 30px;
+    
+}
+
+.TUN-on h1 {
+
+    margin-top: 4px;
+    font-family: 'DynaPuff', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: x-large;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+
+.TUN-on h3 {
+    font-family: 'DynaPuff', cursive;
+    font-family: 'Forum', cursive;
+    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Shippori Mincho', serif;
+    font-size: x-small;
+    margin-top: 0px;
+    margin-left: 11px;
+    margin-bottom: 2px;
+}
+
+.Gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 33px;
+}
+
+.Gallery img {
+    border-radius: 5px 5px 0 0;
+    margin-right: 0px;
+
+}
+
+.imgs {
+    margin: 12px;
+    border-radius: 3%;
+
+    width: 311px;
+}
+
+.imgs:hover {
+    box-shadow: 0 5px 10px 0 #d3cfc9;
+}
+
+.main {
+
+    margin-top: 30px;
+    width: 75%;
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0px;
+
+}
+
+.imgs p {
+    font-size: small;
+    width: 60%;
+    padding-left: 20px;
+
+
+}
+
+.title h3 {
+    color: #197AE5;
+    font-family: 'DynaPuff', cursive;
+    font-family: 'Forum', cursive;
+    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Shippori Mincho', serif;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 700;
+    letter-spacing: -.3px;
+    margin-top: 150px;
+    padding-bottom: 10px;
+
+}
+
+.title p {
+    color: #197AE5;
+    font-weight: 400;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: small;
+    text-align: center;
+    margin-left: 240px;
+    margin-right: 250px;
+    margin-bottom: 80px;
+}
+
+.us {
+
+    background-image: url(destinaion/djerba2.jpg);
+    color: white;
+    background-color: rgb(0, 0, 0, 0.6);
+    background-blend-mode: multiply;
+    background-size: cover;
+    height: 520px;
+    margin-top: 50px;
+}
+
+
+.title iframe {
+    margin-left: 300px;
+    margin-bottom: 70px;
+
+}
+
+.destination {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.destination p {
+    width: 70%;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.tours {
+    margin-top: 20px;
+    flex: 2;
+}
+
+.destination iframe {
+    flex: 1;
+}
+
+.tours h3 {
+    width: 300px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.button {
+    margin-left: 36%;
+    margin-top: 15px;
+
+}
+
+footer {
+    margin-top: 130px;
+    margin-bottom: 0px !important;
+    margin-left: 37%;
+}
+
+
+
+.contact a {
+    margin: 15px;
+}
+
+footer p {
+    word-spacing: 6px;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    width: 50%;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 17%;
+    margin-right: 13%;
+    margin-top: 80px;
+}
+
+
+.content p {
+    width: 63%;
+    margin-left: 27px;
+}
+
+.us h2 {
+    padding-top: 50px;
+    padding-left: 40%;
+    padding-right: 30%;
+}
+
+.special p {
+    margin-top: 29px;
+}
+
+.paragraphe {
+    width: 75%;
+    margin-left: 15%;
+    margin-top: 40px;
+
+}
+
+
+.special h3 {
+    margin-top: 12px;
+    ;
+    width: 77%;
+}
+
+.content h3 {
+    padding-right: 1px;
+    margin-left: 15px;
+}
+
+.spec h3 {
+    padding-left: 22px;
+}
+
+.content div {
+    margin-left: 5px;
+}
+
+.content_section{
+    background-image: url(destinaion/Sidi-Bou-Said.png);
+    height: 630px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    justify-items: center;
+    /* align-items: center; */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .humburger{
+    display: none;
+}
+
+
+@media only screen and( max-width:1320px) {
+    header{
+        padding: 0 50px;
+    }
+    
+}
+
+@media only screen and( max-width:1100px) {
+    header{
+        padding: 0 30px;
+    }
+    
+}
+@media  screen ( max-width:900px) {
+    .humburger{
+        display: block;
+        cursor: pointer;
+    }
+     .line{
+        width: 30px;
+        height: 3px;
+        /* background-color:#197AE5; 
+        background-color: white;
+        margin: 6px 0;
+    }
+    .nav{
+        height: 450px;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        background-color: rgb(254, 252, 252, .90); ;
+        transition: 0.25s;
+    }
+    
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* .checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    display: none;
+}
+
+input{
+    display: none;
+}
+@media (max-width:952px){
+    .TUN-on{
+        font-size: 30PX;
+        padding-left: 50PX;
+    }
+
+    .nav li a {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:858px){
+    .checkbtn{
+        display: block;
+    }
+    .nav{
+        flex-direction: column-reverse;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 80px;
+         left: -100%; 
+        left: 0;
+        text-align: center;
+        background-color: rgb(254, 252, 252, .85);
+         transition: all .5s; 
+    }
+    .nav li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+        background-color: aqua;
+        margin-top: 3px;
+        
+    }
+
+    .nav li a{
+        font-size: 20px;
+    }
+    .nav li a:hover , .nav li a:active{
+        background-color: none !important;
+        color: #061DA2;
+        transition: 0.5s;
+    }
+}
+  */
